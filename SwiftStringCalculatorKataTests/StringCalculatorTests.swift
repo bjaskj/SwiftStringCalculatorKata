@@ -15,4 +15,10 @@ class StringCalculatorTests : XCTestCase {
         let result = stringCalculator.add("")
         XCTAssertEqual(0, result)
     }
+    
+    func testOneReturnsOne() {
+        let stringCalculator = StringCalculator()
+        let result = stringCalculator.add("1")
+        XCTAssertEqual(1, result)
+    }
 }
