@@ -11,6 +11,8 @@
 		D44C433F1960B2E4008314EF /* SwiftStringCalculatorKata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D44C433D1960B2E4008314EF /* SwiftStringCalculatorKata.xcdatamodeld */; };
 		D44C43411960B2E4008314EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44C43401960B2E4008314EF /* Images.xcassets */; };
 		D44C434D1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C434C1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift */; };
+		D44C43571960B30A008314EF /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C43561960B30A008314EF /* StringCalculator.swift */; };
+		D44C43591960B344008314EF /* StringCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C43581960B344008314EF /* StringCalculatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		D44C43461960B2E4008314EF /* SwiftStringCalculatorKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStringCalculatorKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44C434B1960B2E4008314EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44C434C1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringCalculatorKataTests.swift; sourceTree = "<group>"; };
+		D44C43561960B30A008314EF /* StringCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
+		D44C43581960B344008314EF /* StringCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 				D44C43401960B2E4008314EF /* Images.xcassets */,
 				D44C433D1960B2E4008314EF /* SwiftStringCalculatorKata.xcdatamodeld */,
 				D44C43391960B2E4008314EF /* Supporting Files */,
+				D44C43561960B30A008314EF /* StringCalculator.swift */,
 			);
 			path = SwiftStringCalculatorKata;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			children = (
 				D44C434C1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift */,
 				D44C434A1960B2E4008314EF /* Supporting Files */,
+				D44C43581960B344008314EF /* StringCalculatorTests.swift */,
 			);
 			path = SwiftStringCalculatorKataTests;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44C43571960B30A008314EF /* StringCalculator.swift in Sources */,
 				D44C433C1960B2E4008314EF /* AppDelegate.swift in Sources */,
 				D44C433F1960B2E4008314EF /* SwiftStringCalculatorKata.xcdatamodeld in Sources */,
 			);
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44C43591960B344008314EF /* StringCalculatorTests.swift in Sources */,
 				D44C434D1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
