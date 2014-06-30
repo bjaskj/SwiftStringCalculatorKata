@@ -15,7 +15,7 @@ class StringCalculator {
             return 1
         }
         
-        if numbers.bridgeToObjectiveC().containsString(",") {
+        if numbers.containsString(",") {
             let values = numbers.componentsSeparatedByString(",")
             var sum = 0
             

@@ -13,6 +13,7 @@
 		D44C434D1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C434C1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift */; };
 		D44C43571960B30A008314EF /* StringCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C43561960B30A008314EF /* StringCalculator.swift */; };
 		D44C43591960B344008314EF /* StringCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44C43581960B344008314EF /* StringCalculatorTests.swift */; };
+		D499D4E11961F82300572E55 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D499D4E01961F82300572E55 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D44C434C1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringCalculatorKataTests.swift; sourceTree = "<group>"; };
 		D44C43561960B30A008314EF /* StringCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
 		D44C43581960B344008314EF /* StringCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculatorTests.swift; sourceTree = "<group>"; };
+		D499D4E01961F82300572E55 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		D4F95E501961F1BA00B1F6A6 /* StringPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				D44C433D1960B2E4008314EF /* SwiftStringCalculatorKata.xcdatamodeld */,
 				D44C43391960B2E4008314EF /* Supporting Files */,
 				D44C43561960B30A008314EF /* StringCalculator.swift */,
+				D499D4E01961F82300572E55 /* StringExtensions.swift */,
 			);
 			path = SwiftStringCalculatorKata;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D499D4E11961F82300572E55 /* StringExtensions.swift in Sources */,
 				D44C43571960B30A008314EF /* StringCalculator.swift in Sources */,
 				D44C433C1960B2E4008314EF /* AppDelegate.swift in Sources */,
 				D44C433F1960B2E4008314EF /* SwiftStringCalculatorKata.xcdatamodeld in Sources */,
