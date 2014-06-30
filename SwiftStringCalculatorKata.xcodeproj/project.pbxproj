@@ -36,6 +36,7 @@
 		D44C434C1960B2E4008314EF /* SwiftStringCalculatorKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStringCalculatorKataTests.swift; sourceTree = "<group>"; };
 		D44C43561960B30A008314EF /* StringCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculator.swift; sourceTree = "<group>"; };
 		D44C43581960B344008314EF /* StringCalculatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCalculatorTests.swift; sourceTree = "<group>"; };
+		D4F95E501961F1BA00B1F6A6 /* StringPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		D44C432D1960B2E4008314EF = {
 			isa = PBXGroup;
 			children = (
+				D4F95E501961F1BA00B1F6A6 /* StringPlayground.playground */,
 				D44C43381960B2E4008314EF /* SwiftStringCalculatorKata */,
 				D44C43491960B2E4008314EF /* SwiftStringCalculatorKataTests */,
 				D44C43371960B2E4008314EF /* Products */,
@@ -389,6 +391,7 @@
 				D44C43521960B2E4008314EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D44C43531960B2E4008314EF /* Build configuration list for PBXNativeTarget "SwiftStringCalculatorKataTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +400,7 @@
 				D44C43551960B2E4008314EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

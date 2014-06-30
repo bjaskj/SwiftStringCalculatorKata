@@ -10,15 +10,27 @@ import XCTest
 import SwiftStringCalculatorKata
 
 class StringCalculatorTests : XCTestCase {
-    func testEmptyStringReturnsZero() {
+    func testAddEmptyStringReturnsZero() {
         let stringCalculator = StringCalculator()
         let result = stringCalculator.add("")
         XCTAssertEqual(0, result)
     }
     
-    func testOneReturnsOne() {
+    func testAddOneReturnsOne() {
         let stringCalculator = StringCalculator()
         let result = stringCalculator.add("1")
         XCTAssertEqual(1, result)
+    }
+    
+    func testAddTwoNumbersReturnsOne() {
+        let stringCalculator = StringCalculator()
+        let result = stringCalculator.add("1,2")
+        XCTAssertEqual(3, result)
+    }
+    
+    func testAddMultipleNumbersReturnsOne() {
+        let stringCalculator = StringCalculator()
+        let result = stringCalculator.add("1,2,3")
+        XCTAssertEqual(6, result)
     }
 }
